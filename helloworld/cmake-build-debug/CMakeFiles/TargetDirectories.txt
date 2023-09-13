@@ -1,0 +1,3 @@
+/home/cam-o/school/csci-159/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir
+/home/cam-o/school/csci-159/helloworld/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cam-o/school/csci-159/helloworld/cmake-build-debug/CMakeFiles/rebuild_cache.dir
