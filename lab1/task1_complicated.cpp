@@ -1,7 +1,7 @@
 #include <cstdio>
 
 double average(int* nums) {
-	int sum = *nums + *(nums + 1) + *(nums + 2) + *(nums + 3);
+	double sum = *nums + *(nums + 1) + *(nums + 2) + *(nums + 3);
 	double avg = sum / 4;
 	return avg;
 }
@@ -18,7 +18,7 @@ int main() {
 	int nums[4] = {num1, num2, num3, num4};
 	printf("%i\n", *nums);
 	double avg = average(nums);
-	printf("%d is the average.", avg);
+	printf("%.2lf is the average.", avg);
 
 }
 
