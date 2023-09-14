@@ -1,0 +1,13 @@
+ls -- display files in current directory
+cd -- change directory
+cd .. go up one directory in the tree (.. stands for previous dir)
+gedit -- launch GNOME's graphical editor utility
+touch <filename> -- create file
+g++ <source file> -o <output file> -- compile a c++ program in <source file> to an executable in <output file>
+man <command> -- view manual page for a specific command
+vim -- launch the Vim modal text editor
+mkdir -- make directory
+rm -- delete file
+
+
+If you need any more specific commands, contact Connor
