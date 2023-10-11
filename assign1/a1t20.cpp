@@ -52,7 +52,10 @@ int main() {
 	}
 	int initcur;
 	cin >> initcur;
-	// sanitise input here later
+	if (initcur < 0 || initcur > 4) {
+		cout << "That's not a valid currency." << endl;
+		return 1;
+	}
 	cout << "How much of this currency do you have?" << endl;
 	double quantity;
 	cin >> quantity;
