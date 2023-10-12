@@ -45,7 +45,7 @@ int main(){
   cout << RCI << endl;
 
   int Num = RCI_Compiler(RCI);
-  cout << "The Roman Character Integer:" << RCI << endl;
+  cout << "The Roman Character Integer: " << RCI << endl;
   cout << "is equal to: " << Num << endl;
 
   return 0;
