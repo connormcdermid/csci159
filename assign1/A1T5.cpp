@@ -13,11 +13,15 @@ int main()
             n = n / i;
             std::cout << i << std::endl;
         }
-    }
-    if(n != 1)
+    {
+     if(n != 1)
+    {
+        std::cout << n << std::endl;
+    } else if (n == 1)
     {
         std::cout << n << std::endl;
     }
+
     return 0;
 }
 
