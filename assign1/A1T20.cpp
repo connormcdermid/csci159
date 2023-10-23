@@ -87,7 +87,7 @@ int main() {
 			cout << "You have " << result << " GBP." << endl;
 			break;
 		case 4:
-			cout << "You have " << result << " CAD." << endl;
+			cout << "You have " << result << " JPY." << endl;
 			break;
 	}
 }

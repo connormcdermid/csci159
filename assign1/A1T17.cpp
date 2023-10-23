@@ -37,12 +37,17 @@ int main() {
 
 	// dot product of two matrices produces a matrix with the same number of rows as the first matrix and the
 	// same number of columns as the second
-	int result[rowsA][colsB] = {{0}};
+	int result[rowsA][colsB] = {0};
+	for (int i = 0; i < rowsA; i++) {
+		for (int j = 0; j < colsB; j++) {
+			result[i][j] = 0;
+		}
+	}
 	// traverse the matrix to find our destination
 	for (int i = 0; i < colsB; i++) {
 		for (int j = 0; j < rowsA; j++) {
 			for (int k = 0; k < rowsB; k++) {
-				result[i][j] = matrixA[i][k] * matrixB[k][j]; // then multiply for each value
+				result[i][j] += matrixA[i][k] * matrixB[k][j]; // then multiply for each value
 			}
 		}
 	}
